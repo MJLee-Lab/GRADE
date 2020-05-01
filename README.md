@@ -34,7 +34,9 @@ GRADE = calcGRADE(GR,FV,tau,x)
 
        GRADE = calcGRADE(gr1,fv1,26,72);
 
-•	This should yield a drug GRADE = 27.7889
+•	This should yield a drug 
+
+       GRADE = 27.7889
 
 •	calcGRADE takes the vectors GR and FV in addition to the growth rate (tau), and assay length (x).  All 4 inputs are required for GRADE to run properly.  The function returns GRADE for the drug of interest
 

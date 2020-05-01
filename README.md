@@ -5,7 +5,7 @@ Data preparation
 
 •	Before using the calcGRADE function, fractional viability (FV) and the normalized growth rate inhibition (GR) value needs to be calculated for each dose point of a given drug. 
 
-•	FV can be calculated by dividing the living number of cells by the total number of cells in treatment wells (more information in materials and methods and figure 1).  FV values can be normalized to the vehicle control if basal cell death is high (this is not necessary for low basal cell death)
+•	FV can be calculated by dividing the living number of cells by the total number of cells in treatment wells (more   information in materials and methods and figure 1).  FV values can be normalized to the vehicle control if basal cell death is high (this is not necessary for low basal cell death)
 
 •	GR values are calculated as described in Hafner et al. 2016 
 
@@ -30,9 +30,9 @@ GRADE = calcGRADE(GR,FV,tau,x)
 
 •	To run the supplied example data (README-ex1.mat) for a cell line with a 26 hour doubling time and an assay length of 72 hours:
 
-load README-ex1.mat;
+      load README-ex1.mat;
 
-GRADE = calcGRADE(gr1,fv1,26,72);
+       GRADE = calcGRADE(gr1,fv1,26,72);
 
 •	This should yield a drug GRADE = 27.7889
 
@@ -56,13 +56,13 @@ o	The variable returned will be a vector equal to the size of the input cell arr
 
 •	To run the supplied example data (README-ex2.mat) for a cell line with a doubling time of 26 hours and an assay length of 72 hours:
 
-load README-ex2.mat;
+      load README-ex2.mat;
 
-GRADE = cellfun(@(x,y) calcGRADE(x,y,26,72), GR, FV)
+      GRADE = cellfun(@(x,y) calcGRADE(x,y,26,72), GR, FV)
 
 This should yield for the 3 drugs in the example
 
-GRADE = 
+      GRADE = 
 
-27.7889	61.4905	2.2808
+           27.7889	61.4905	2.2808
 

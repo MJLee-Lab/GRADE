@@ -19,9 +19,9 @@ GR – Growth rate index values for each dose
 
 FV – Fractional viability values for each dose
 
-Tau – cell growth rate (doubling time, in hours)
+tau – cell growth rate (doubling time, in hours)
 
-X – assay duration (in hours)
+x – assay duration (in hours)
 
 # Running calcGRADE
 

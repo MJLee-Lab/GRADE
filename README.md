@@ -39,7 +39,7 @@ x – assay duration (in hours)
 
        GRADE = calcGRADE(gr1,fv1,26,72);
 
-•	This should yield a drug 
+•	This should yield a drug GRADE:
 
        GRADE = 27.7889
 

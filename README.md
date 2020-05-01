@@ -1,6 +1,8 @@
 # GRADE
 Calculation of drug GRADEs
+
 Data preparation
+
 •	Before using the calcGRADE function, fractional viability (FV) and the normalized growth rate inhibition (GR) value needs to be calculated for each dose point of a given drug. 
 •	FV can be calculated by dividing the living number of cells by the total number of cells in treatment wells (more information in materials and methods and figure 1).  FV values can be normalized to the vehicle control if basal cell death is high (this is not necessary for low basal cell death)
 •	GR values are calculated as described in Hafner et al. 2016 

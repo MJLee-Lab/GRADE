@@ -13,10 +13,14 @@ Calculation of drug GRADEs
 
 # calcGRADE structure
 
-calcGRADE(GR,FV,tau,x)
+    calcGRADE(GR,FV,tau,x)
+
 GR – Growth rate index values for each dose
+
 FV – Fractional viability values for each dose
+
 Tau – cell growth rate (doubling time, in hours)
+
 X – assay duration (in hours)
 
 # Running calcGRADE
